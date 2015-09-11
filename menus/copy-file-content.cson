@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle copy-file-content'
+      'command': 'copy-file-content:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'copy-file-content'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'copy-file-content:toggle'
+        }
+      ]
+    ]
+  }
+]
