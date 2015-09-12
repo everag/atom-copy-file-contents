@@ -1,5 +1,13 @@
-# copy-file-content package
+# copy-file-contents package
 
-A short description of your package.
+Copy file contents to clipboard right from the tree view's context menu!
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![Screenshot](http://i.imgur.com/fhPdnWx.png)
+
+## Usage
+
+Open the context menu (**right click**) for any file on the tree view pane and select the `Copy contents` option to copy them to the system clipboard.
+
+## OS Support
+
+Current version supports only **Windows** platform. Next versions will target **OS X** and **Linux**.
