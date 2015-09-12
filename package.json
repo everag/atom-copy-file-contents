@@ -1,21 +1,19 @@
 {
-  "name": "copy-file-contents",
-  "main": "./lib/copy-file-contents",
-  "version": "0.1.0",
-  "description": "Copy file contents to clipboard right from the tree view's context menu!",
-  "keywords": [
-    "file", "treeview", "copy", "clipboard"
-  ],
-  "activationCommands": {
-    ".tree-view .selected": [
-  	  "copy-file-contents:copy"
-    ]
-  },
-  "repository": "https://github.com/lieko/atom-copy-file-contents",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-  }
+	"name": "copy-file-contents",
+	"description": "Copy file contents to clipboard right from the tree view's context menu!",
+	"version": "0.0.0",
+	"main": "./lib/copy-file-contents",
+	"activationCommands": {
+    	".tree-view .selected": [
+			"copy-file-contents:copy"
+    	]
+	},
+	"keywords": [
+		"file", "treeview", "copy", "clipboard"
+	],
+	"repository": "https://github.com/lieko/atom-copy-file-contents",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=0.50.0"
+	}
 }
