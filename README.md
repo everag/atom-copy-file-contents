@@ -10,4 +10,14 @@ Open the context menu (**right click**) for any file on the tree view pane and s
 
 ## OS Support
 
-Current version supports only **Windows** platform. Next versions will target **OS X** and **Linux**.
+Current version supports only **Windows** platform.
+
+## Roadmap
+
+Planned features for future releases:
+* OS X support
+* Linux support
+* Keybindings support
+* "Copy contents" option on application menu
+* "Copy contents" option on editor's context menu
+* Proper support for copying image files
