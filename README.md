@@ -25,5 +25,5 @@ Planned features for future releases:
 * "Copy contents" option on editor's context menu
 * Proper support for copying image files
 
-[1]: /doc/screenshot.png
+[1]: https://raw.githubusercontent.com/lieko/atom-copy-file-contents/master/doc/screenshot.png
 [2]: http://sourceforge.net/projects/xclip
