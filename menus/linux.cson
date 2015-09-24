@@ -1,0 +1,7 @@
+'context-menu':
+  '.platform-linux .tree-view .file': [
+    {
+      label: 'Copy contents',
+      command: 'copy-file-contents:copy'
+    }
+  ]

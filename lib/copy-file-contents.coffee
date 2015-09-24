@@ -10,8 +10,16 @@
 ###
 
 copy = (filepath) ->
-	console.log "[copy-file-contents] copy() filepath=\"#{filepath}\""
-	require('child_process').exec "clip < #{filepath}"
+	platform = require('os').platform()
+
+	switch platform
+	  when 'win32'
+	    command = "clip < #{filepath}"
+	  else
+	    command = "xclip -i -selection c \"#{filepath}\""
+
+	console.log "[copy-file-contents][#{platform}] copy() filepath=\"#{filepath}\""
+	require('child_process').exec command
 
 module.exports =
 	activate: (state) ->
