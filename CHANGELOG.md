@@ -1,3 +1,6 @@
+## 0.3.0 - Linux support
+* OS X support for the "Copy contents" context menu feature!
+
 ## 0.2.1 - Screenshot path fix
 * Fix on the screenshot image url on the README [stopped displaying on Atom package page]
 

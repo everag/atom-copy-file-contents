@@ -10,7 +10,7 @@ Open the context menu (**right click**) for any file on the tree view pane and s
 
 ## OS Support
 
-Current version supports **Windows** and **Linux** platform.
+Current version supports **Windows**, **OS X** and **Linux** platforms!
 
 #### Linux
 
@@ -19,7 +19,6 @@ The plugin relies on the [**xclip**][2] command in order to interact with the sy
 ## Roadmap
 
 Planned features for future releases:
-* OS X support
 * Keybindings support
 * "Copy contents" option on application menu
 * "Copy contents" option on editor's context menu

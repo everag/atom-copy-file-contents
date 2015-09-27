@@ -15,6 +15,8 @@ copy = (filepath) ->
 	switch platform
 	  when 'win32'
 	    command = "clip < #{filepath}"
+	  when 'darwin'
+	    command = "cat #{filepath} | pbcopy"
 	  else
 	    command = "xclip -i -selection c \"#{filepath}\""
 
