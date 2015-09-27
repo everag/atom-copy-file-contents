@@ -1,7 +1,7 @@
 {
   "name": "copy-file-contents",
   "description": "Copy file contents to clipboard right from the tree view's context menu!",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "main": "./lib/copy-file-contents",
   "activationCommands": {
     ".tree-view .selected": [
